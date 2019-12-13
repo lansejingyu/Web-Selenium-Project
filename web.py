@@ -9,7 +9,7 @@ from collections import defaultdict
 driver =webdriver.Chrome('D:\\Chrome\\Application\\chromedriver')
 
 # driver.get('http://fedev.chinaeast2.cloudapp.chinacloudapi.cn:83/#/login')
-driver.get('http://fedev.chinaeast2.cloudapp.chinacloudapi.cn:83/#/')
+driver.get('http://mall.test.xyb2b.com.cn/login')
 
 # time.sleep(3)
 # driver.maximize_window()
@@ -17,8 +17,8 @@ driver.get('http://fedev.chinaeast2.cloudapp.chinacloudapi.cn:83/#/')
 
 # driver.find_element_by_tag_name("input").send_keys("570820332@qq.com")
 # driver.find_element_by_tag_name('input').send_keys("111111qqqqqq")
-driver.find_elements_by_class_name('ivu-input')[0].send_keys("570820332@qq.com")   #用户名输入
-driver.find_elements_by_class_name('ivu-input')[1].send_keys("123456")             #密码输入
+driver.find_elements_by_class_name('el-input__inner')[0].send_keys("18067921639")   #用户名输入
+driver.find_elements_by_class_name('el-input__inner')[1].send_keys("123456")             #密码输入
 # driver.find_elements_by_class_name('ivu-input')[2].send_keys('123')              #验证码输入
 time.sleep(5)
 driver.find_element_by_class_name('ivu-btn').click()          #登录
