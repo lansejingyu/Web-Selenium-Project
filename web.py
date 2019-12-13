@@ -49,4 +49,4 @@ driver.find_element_by_class_name('gQueryBtn').click()                    #查�
 # pytesseract.pytesseract.tesseract_cmd = 'D:/tesseract-ocr/tesseract.exe'
 # text = pytesseract.image_to_string(Image.open('C://Users/蓝色鲸鱼/Desktop/验证码.jpg'))
 #
-# print(text)
+
