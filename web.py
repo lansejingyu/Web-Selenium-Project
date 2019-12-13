@@ -37,13 +37,6 @@ driver.find_elements_by_class_name('ivu-select-item')[8].click()          #选�
 driver.find_element_by_class_name('gQueryBtn').click()                    #查询
 
 
-# for i in lists:
-# 	i.click()
-# 	time.sleep(3)
-#
-# time.sleep(3)
-# driver.quit()
-
 
 
 
