@@ -35,8 +35,3 @@ time.sleep(3)
 driver.find_elements_by_class_name('ivu-icon-ios-arrow-down')[3].click()  #业务类型
 driver.find_elements_by_class_name('ivu-select-item')[8].click()          #选择拒绝
 driver.find_element_by_class_name('gQueryBtn').click()                    #查询
-
-
-
-
-
